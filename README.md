@@ -57,28 +57,28 @@
 - AJAX(Asynchronous Javascript and XML)
   - 서버와 통신하기 위해 XMLHttpRequest 객체 사용
   - 비동기성으로 페이지 새로고침을 하지않고도 수행
-  - REST API(Representational State Transfer)
-    - 소프트웨어 개발 아키텍처의 한 형식
-    - 자원을 이름으로 구분하고 자원의 상태를 주고 받는 모든 것
-    - 일반적으로 Rest라 하면 HTTP를 통해 CRUD를 실행하는 API
-  - jsonplaceholder
-    - 테스트 및 prototype을 위한 Rest API 서비스
+- REST API(Representational State Transfer)
+  - 소프트웨어 개발 아키텍처의 한 형식
+  - 자원을 이름으로 구분하고 자원의 상태를 주고 받는 모든 것
+  - 일반적으로 Rest라 하면 HTTP를 통해 CRUD를 실행하는 API
+- jsonplaceholder
+  - 테스트 및 prototype을 위한 Rest API 서비스
 //     추가
-  - XMLHttpRequest
-    - [실습1](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/001.script.js)
-      - XMLHttPRequest 사용해보기
-    - [실습2](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/002.script.js)  
-      - XMLHttpRequest를 사용해 받아온 data를 json형식으로 refactoring
-  - fetch API
-    - XMLHttpRequest와 유사하나 더 발전된 API
-    - 객체를 Promise 형태로 반환
-    - json의 타입별로 쉽게 적용이 가능
-    - [실습3](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/003.script.js)
-      - fetch API를 사용하여 data를 받아오기
-  - axios
-    - 가장 널리 쓰이는 http 통신 라이브러리
-    - Vue/React에서도 권고 라이브러리로 지정됨
-    - Promise 형태 리턴
-    - [실습4](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/004.script.js)
-      - axios를 사용하여 data를 받아오기
+- XMLHttpRequest
+  - [실습1](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/001.script.js)
+    - XMLHttPRequest 사용해보기
+  - [실습2](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/002.script.js)  
+    - XMLHttpRequest를 사용해 받아온 data를 json형식으로 refactoring
+- fetch API
+  - XMLHttpRequest와 유사하나 더 발전된 API
+  - 객체를 Promise 형태로 반환
+  - json의 타입별로 쉽게 적용이 가능
+  - [실습3](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/003.script.js)
+    - fetch API를 사용하여 data를 받아오기
+- axios
+  - 가장 널리 쓰이는 http 통신 라이브러리
+  - Vue/React에서도 권고 라이브러리로 지정됨
+  - Promise 형태 리턴
+  - [실습4](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/004.script.js)
+    - axios를 사용하여 data를 받아오기
       
