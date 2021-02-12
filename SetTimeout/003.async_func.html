@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button {
+            background: forestgreen;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="button"></div>
+    <script>
+        const button = document.querySelector('.button');
+        button.addEventListener('click', () => {
+            button.style.transform = 'translate(200px)';
+            setTimeout(() => console.log('안녕'), 1500);
+        })
+    </script>
+</body>
+
+</html>
