@@ -10,13 +10,14 @@
   - 비동기 함수(setTimeout, 다른 작업을 수행할 수 있음)를 사용하여 message 출력하기
 - [실습3](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/SetTimeout/003.async_func.html)
   - 사각형 클릭 시 200px로 위치 변경 및 1.5초후 메시지 출력
-- [실습4](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/SetTimeout/004.script.js)비동기 API를 활용한 동기 구현
+- [실습4](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/SetTimeout/004.script.js)
+  - 비동기 API를 활용한 동기 구현
   - HI 출력 후 0.5초 후에 First, 그 1초 후 Second, 2초 후 Third가 출력
 - [실습5](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/SetTimeout/005.script.js)  
   - 비동기로 함수 호출하여 값을 저장 후 게산
 - Callback Hell
   - Async 함수들로 Sync 동작을 구현하는 코드
-  - 이해하기 힘들 정도로 가독성ㅇ ㅣ떨어져, 유지보수가 힘듦  
+  - 이해하기 힘들 정도로 가독성이 떨어져, 유지보수가 힘듦  
 
 ### Thread / Async 차이
 - Single Thread 
