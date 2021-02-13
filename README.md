@@ -63,7 +63,46 @@
   - 일반적으로 Rest라 하면 HTTP를 통해 CRUD를 실행하는 API
 - jsonplaceholder
   - 테스트 및 prototype을 위한 Rest API 서비스
-//     추가
+- HTTP Request Method
+  - GET
+    - 데이터를 읽거나 검색을 할 때 사용
+    - URL에 데이터를 붙여서 보냄
+    - 캐싱이 가능
+  - POST
+    - 새로운 리소스를 생성할 때 사용
+    - URL이 아닌 BODY 부분에 데이터를 넣어서 보냄
+  - PUT
+    - 전체 데이터를 변경 및 갱신할 때 사용
+  - PATCH
+    - 일부 데이터를 변경 할 때 사용
+    - 전체를 갱신하는 PUT과 다르게 일부를 수정하기 때문에 UPDATE 부분에 더 적합
+  - DELETE
+    - 리소스를 삭제할 때 사용
+- RESTful API
+  - REST 원리를 따르는 시스템
+  - 이해하기 쉽고 사용하기 쉬운 REST API를 만드는 것
+- HTTP Response Status Code
+  - 1xx(Information)
+    - 요청을 받았으며 프로세스를 진행하는 상태
+    - 100(요청 후 대기중)
+  - 2xx(Success)
+    - 요청을 성곡적으로 받았으며 인식했고 진행한 상태
+    - 200(요청 성공)
+    - 201(생성 완료)
+  - 3xx(Redirection)
+    - 클라이언트는 요청을 마치기 위해 추가적으로 동작을 취해줘야 함
+    - 301(새위치로 영구적으로 이동)
+    - 302(임시이동)
+  - 4xx(Client Error)
+    - 클라이언트 단에서 에러가 발생한 경우 해당 오류가 발생
+    - 400(잘못된 요청)
+    - 401(권한 없음)
+    - 404(찾을 수 없음)
+  - 5xx(Server Error)
+    - 서버 측에 에러가 발생 했을 경우 해당 상태코드가 발생
+    - 500(내부 서버 오류)
+    - 503(서버를 사용할 수 없음)
+    - 504(시간 초과)
 - XMLHttpRequest
   - [실습1](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/001.script.js)
     - XMLHttPRequest 사용해보기
@@ -81,4 +120,8 @@
   - Promise 형태 리턴
   - [실습4](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/004.script.js)
     - axios를 사용하여 data를 받아오기
-      
+  - [실습5](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/005.script.js)      
+    - axios 호출값 받아와서 활용하기
+    - data값을 받아온 후 조건에 맞는 정보 출력
+  - [실습6](https://github.com/KimUJin3359/Web_Async_Programming/blob/master/AJAX/006.script.js)    
+    - 암호화폐에 대한 정보를 받아와서 이름별/평균값(고가, 저가)/24시간 변동률 tag에 따른 정렬 시스템 생성
